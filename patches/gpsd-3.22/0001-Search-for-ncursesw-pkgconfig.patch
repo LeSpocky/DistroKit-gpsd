@@ -7,14 +7,14 @@ which SConstruct is unaware of.
 
 Signed-off-by: Ladislav Michl <ladis@linux-mips.org>
 ---
- SConstruct | 2 ++
+ SConscript | 2 ++
  1 file changed, 2 insertions(+)
 
-diff --git a/SConstruct b/SConstruct
-index e15d63f6ede0..71643c428f26 100644
---- a/SConstruct
-+++ b/SConstruct
-@@ -1067,6 +1067,8 @@ else:
+diff --git a/SConscript b/SConscript
+index d0b0908ec5f0..4292e75229d6 100644
+--- a/SConscript
++++ b/SConscript
+@@ -1133,6 +1133,8 @@ if not cleaning and not helping:
              ncurseslibs = pkg_config('ncurses', rpath_hack=True)
              if config.CheckPKG('tinfo'):
                  ncurseslibs += pkg_config('tinfo', rpath_hack=True)
