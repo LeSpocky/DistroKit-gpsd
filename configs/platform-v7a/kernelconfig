@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm 5.8 Kernel Configuration
+# Linux/arm 5.8.9 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="arm-v7a-linux-gnueabihf-gcc (OSELAS.Toolchain-2016.06.1) 5.4.0"
 CONFIG_CC_IS_GCC=y
@@ -1806,6 +1806,7 @@ CONFIG_SPI_OMAP24XX=y
 # CONFIG_SPI_LOOPBACK_TEST is not set
 # CONFIG_SPI_TLE62X0 is not set
 # CONFIG_SPI_SLAVE is not set
+CONFIG_SPI_DYNAMIC=y
 # CONFIG_SPMI is not set
 # CONFIG_HSI is not set
 CONFIG_PPS=y
@@ -2857,6 +2858,7 @@ CONFIG_CLK_SP810=y
 CONFIG_CLK_VEXPRESS_OSC=y
 # end of Clock driver for ARM Reference designs
 
+# CONFIG_CLK_HSDK is not set
 # CONFIG_COMMON_CLK_MAX9485 is not set
 # CONFIG_COMMON_CLK_SI5341 is not set
 # CONFIG_COMMON_CLK_SI5351 is not set
